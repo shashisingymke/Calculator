@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <form action="index.html" name="form" id="formId">
+            <div class="screen">
+                <input type="text" name="calculation">
+                <div class="answer">
+                    <input class="sign" type="text" name="sign">
+                    <input class="ans" value="Ans =" type="text" name="ans">
+                </div>
+            </div>
+            <div class="button">
+                <button class="ce" onclick="CE()">CE</button>
+                <button class="number" onclick="C()">C</button>
+                <button class="number" onclick="modulus()">%</button>
+                <button class="operator" onclick="divide()">&divide;</button>
+                <button class="number" onclick="seven()">7</button>
+                <button class="number" onclick="eight()">8</button>
+                <button class="number" onclick="nine()">9</button>
+                <button class="operator" onclick="times()">&times;</button>
+                <button class="number" onclick="four()">4</button>
+                <button class="number" onclick="five()">5</button>
+                <button class="number" onclick="six()">6</button>
+                <button class="operator" onclick="minus()">&minus;</button>
+                <button class="number" onclick="one()">1</button>
+                <button class="number" onclick="two()">2</button>
+                <button class="number" onclick="three()">3</button>
+                <button class="operator" onclick="plus()">&plus;</button>
+                <button class="number" onclick="plusminus()">&plus; &#8725; &minus;</button>
+                <button class="number" onclick="zero()">0</button>
+                <button class="number" onclick="dout()">.</button>
+                <button class="equal" onclick="equals()">&equals;</button>
+            </div>
+        </form>
+    </div>
+    <script src="./js.js"></script>
+</body>
+</html>
+
+
+
